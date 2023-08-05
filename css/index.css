@@ -1,0 +1,278 @@
+@charset 'UTF-8';
+* {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 12.26666667vw;
+  background-color: #fff;
+  padding: 0 4vw;
+  z-index: 999;
+}
+header .address {
+  font-size: 4.26666667vw;
+  color: #333;
+}
+header .search {
+  display: flex;
+  height: 8.53333333vw;
+  width: 64vw;
+  border-radius: 4.26666667vw;
+  background-color: #f7f7f7;
+  margin-left: 5.33333333vw;
+  line-height: 8.53333333vw;
+  padding-left: 4.26666667vw;
+  font-size: 3.73333333vw;
+  color: #999;
+}
+header .search img {
+  height: 4.26666667vw;
+  margin-top: 2.13333333vw;
+  margin-right: 4.26666667vw;
+}
+header .xiaoxi img {
+  width: 5.33333333vw;
+  margin-left: 6.93333333vw;
+}
+.main {
+  background-image: linear-gradient(#e7e7e7, #fff);
+  margin: 13.33333333vw 0;
+  padding: 0 4vw;
+}
+.main .banner {
+  padding-top: 2.66666667vw;
+}
+.main .banner img {
+  border-radius: 1.33333333vw;
+  width: 100%;
+}
+.main .banner .d {
+  display: flex;
+  justify-content: center;
+  margin: 2.66666667vw 0;
+}
+.main .banner .d .dot {
+  width: 1.6vw;
+  height: 0.8vw;
+  background-color: #dedede;
+  margin-left: 2.13333333vw;
+  border-radius: 0.4vw;
+}
+.main .banner .d .dot1 {
+  width: 2.4vw;
+  height: 0.8vw;
+  background-color: #333;
+  border-radius: 0.4vw;
+}
+.main .rent {
+  display: flex;
+  margin-top: 3.2vw;
+}
+.main .rent .left {
+  margin-right: 2.66666667vw;
+}
+.main .rent img {
+  height: 18.66666667vw;
+}
+.main .discount {
+  margin-top: 9.6vw;
+}
+.main .discount .title {
+  display: flex;
+  justify-content: space-between;
+}
+.main .discount .title h4 {
+  font-size: 4.8vw;
+  color: #333;
+}
+.main .discount .title span img {
+  width: 2.13333333vw;
+  margin-top: 1.86666667vw;
+}
+.main .discount .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.33333333vw;
+  margin-bottom: 8vw;
+}
+.main .discount .content .left {
+  margin-right: 2.66666667vw;
+}
+.main .discount .content .txt {
+  margin-top: 2.66666667vw;
+}
+.main .discount .content .txt h4 {
+  font-size: 3.46666667vw;
+  color: #333;
+}
+.main .discount .content .txt p {
+  font-size: 3.2vw;
+  color: #999;
+  margin-top: 1.33333333vw;
+}
+.main .discount .content .txt span {
+  font-size: 3.2vw;
+  color: #f5a92c;
+  font-weight: bold;
+  margin-top: 3.2vw;
+}
+.main .ad img {
+  border-radius: 1.86666667vw;
+}
+.main .reco .title {
+  margin-top: 9.6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.main .reco .title h4 {
+  font-size: 4.8vw;
+}
+.main .reco .title .class {
+  display: flex;
+}
+.main .reco .title .class a {
+  font-size: 3.73333333vw;
+  color: #999;
+  margin-left: 5.33333333vw;
+  margin-right: 4vw;
+}
+.main .reco .title .class .one {
+  font-weight: 700;
+  color: #333;
+}
+.main .reco .title .class .one::after {
+  display: block;
+  content: '';
+  width: 3.46666667vw;
+  height: 1.06666667vw;
+  background-color: #0f9fec;
+  margin: 0 auto;
+  border-radius: 0.53333333vw;
+  margin-top: 0.8vw;
+}
+.main .reco .items {
+  display: flex;
+  margin-top: 6.4vw;
+}
+.main .reco .items .left img {
+  height: 24vw;
+}
+.main .reco .items .right {
+  margin-left: 4.26666667vw;
+  width: 58.66666667vw;
+}
+.main .reco .items .right h4 {
+  font-size: 3.73333333vw;
+  color: #333;
+  margin-bottom: 1.33333333vw;
+}
+.main .reco .items .right p {
+  font-size: 3.2vw;
+  color: #999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1.33333333vw;
+}
+.main .reco .items .right .details {
+  display: flex;
+  font-size: 3.2vw;
+  color: #999;
+  margin-bottom: 1.33333333vw;
+}
+.main .reco .items .right .details div {
+  border: 0.26666667vw solid #ccc;
+  border-radius: 0.53333333vw;
+  padding: 0.53333333vw 2.66666667vw;
+}
+.main .reco .items .right .details .duwei {
+  margin-right: 2.66666667vw;
+}
+.main .reco .items .right .price {
+  font-size: 3.46666667vw;
+  color: #f5a92c;
+  font-weight: 700;
+}
+.main .reco .items .right .price i {
+  font-style: normal;
+  font-size: 3.2vw;
+}
+.main .more a {
+  display: block;
+  width: 69.33333333vw;
+  height: 10.13333333vw;
+  background-color: #f2f2f3;
+  border-radius: 5.06666667vw;
+  font-size: 3.2vw;
+  color: #999;
+  text-align: center;
+  line-height: 10.13333333vw;
+  margin: 6.4vw auto;
+}
+.main .pr {
+  padding-bottom: 3.2vw;
+}
+.main .pr img {
+  height: 22.66666667vw;
+  border-radius: 1.33333333vw;
+}
+/* 底部区域 */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 13.33333333vw;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: inset 0px 1px 1px 0px #e4e4e4;
+}
+footer a {
+  color: #999;
+}
+footer a .iconfont {
+  font-size: 5.33333333vw;
+}
+footer a p {
+  font-size: 2.93333333vw;
+  margin-top: 0.53333333vw;
+}
+footer a:first-child {
+  color: #333;
+}
